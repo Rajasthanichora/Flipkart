@@ -5,6 +5,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.4;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 /* ///////////////////// */
 /* ///////////////////// */
@@ -18,18 +20,15 @@ body {
   display: flex;
   justify-content: center;
 }
-
 #leftsidecointainer {
   width: 124px;
   height: 100%;
 }
-
 #rightsidecointainer {
   width: 904.3px;
   height: auto;
   display: flex;
 }
-
 /* ! LOGO CONTAINER */
 #logocontainer {
   width: 137px;
@@ -167,6 +166,74 @@ body {
 }
 /* ! OTHER HEADER TEXT START */
 /* !header complete */
+/* ///////////////////// */
+/* ///////////////////// */
+/* ///////////////////// */
+/* ///////////////////// */
+/* ///////////////////// */
+/* ! category complete */
+#category {
+  min-height: 112px;
+  flex-direction: row;
+  color: #212121;
+  display: flex;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+  justify-content: center;
+  align-items: center;
+}
+/* ! categoryes all */
+#allcategory {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+.catimgg img {
+  width: 64px;
+  height: 64px;
+}
+#Grocerysec {
+  padding-top: 12px;
+}
+#Mobilessec {
+  padding: 12px 8px;
+  margin-right: 7px;
+  margin-left: 12px;
+}
+#fasionsec {
+  margin-right: 7px;
+
+  padding: 12px 8px;
+}
+#electronicsec {
+  padding: 12px 8px;
+  margin-right: 7px;
+}
+#homesec {
+  padding: 12px 8px;
+  margin-right: 7px;
+}
+#appliancesec {
+  padding: 12px 8px;
+  margin-right: 7px;
+}
+#travel {
+  padding: 12px 8px;
+  margin-right: 7px;
+}
+#topoffersec {
+  padding: 12px 8px;
+  margin-right: 7px;
+}
+#beutytoyssec {
+  padding: 12px 8px;
+  margin-right: 7px;
+}
+#twowheelerssec {
+  padding: 12px 8px;
+}
+/* ! category complete */
 /* ///////////////////// */
 /* ///////////////////// */
 /* ///////////////////// */
