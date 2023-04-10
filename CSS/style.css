@@ -248,7 +248,6 @@ body {
 #slidercontainer {
 	margin: 8.3px;
 	width: 100%;
-	position: absolute;
 	height: 280px;
 	background-color: aqua;
 	max-width: 1680px;
@@ -256,3 +255,47 @@ body {
 #slidercontainer img {
 	height: 279px;
 }
+
+
+
+
+
+.all-card-section{
+
+	min-height: 341px;
+	flex-direction: row;
+	color: #212121;
+	display: flex;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(201, 31, 31);
+	margin: 8.3px;
+	max-width: 1680px;
+}
+.flex-sectionn{
+
+	display: flex;
+	justify-content: center;
+}
+
+.left-card-sec{
+background-color: #ffe500;
+min-height: 341px;
+
+width: 23vw;
+}
+
+.right-card-sec{
+	background-color: #0dff35;
+	min-height: 341px;
+	width: 75vw;
+
+}
+
+
+
+
+
+
+
