@@ -1,6 +1,7 @@
 * {
 	font-family: Roboto, Arial, sans-serif;
 }
+
 body {
 	margin: 0;
 	padding: 0;
@@ -9,6 +10,7 @@ body {
 	overflow-x: hidden;
 	background-color: #f1f3f6;
 }
+
 /* ///////////////////// */
 /* ///////////////////// */
 /* ///////////////////// */
@@ -21,15 +23,18 @@ body {
 	display: flex;
 	justify-content: center;
 }
+
 #leftsidecointainer {
 	width: 124px;
 	height: 100%;
 }
+
 #rightsidecointainer {
 	width: 904.3px;
 	height: auto;
 	display: flex;
 }
+
 /* ! LOGO CONTAINER */
 #logocontainer {
 	width: 137px;
@@ -39,10 +44,12 @@ body {
 	flex-direction: column;
 	align-items: end;
 }
+
 #logocontainer img {
 	width: 75px;
 	height: 20.1px;
 }
+
 #logodiscript {
 	width: 75px;
 	height: 15.4px;
@@ -54,17 +61,21 @@ body {
 	font-weight: bold;
 	margin-top: -1px;
 }
+
 #exploretext {
 	margin-right: 1px;
 }
+
 #plustext {
 	color: #ffe500;
 	margin-right: 1px;
 }
+
 #starlogo img {
 	width: 10px;
 	height: 10px;
 }
+
 /* ! LOGO CONTAINER */
 /* ! SEARCHBAR START */
 #searchbar {
@@ -74,6 +85,7 @@ body {
 	display: flex;
 	align-items: center;
 }
+
 #searchform {
 	background-color: white;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
@@ -85,6 +97,7 @@ body {
 	border-radius: 2px;
 	justify-content: space-between;
 }
+
 #searchinput {
 	padding: 0 16px;
 	padding-right: 0;
@@ -95,6 +108,7 @@ body {
 	height: 36px;
 	width: 100%;
 }
+
 #searchbtnncontainer {
 	height: 36px;
 	width: 42px;
@@ -102,6 +116,7 @@ body {
 	cursor: pointer;
 	padding: 4px 6px 0 8px;
 }
+
 #searchbtnn {
 	background: none;
 	border: none;
@@ -110,6 +125,7 @@ body {
 	color: #2874f0;
 	font-size: 26px;
 }
+
 /* ! SEARCHBAR END */
 /* ! LOGIN BUTTUN START */
 #searchloginbtn {
@@ -119,6 +135,7 @@ body {
 	display: flex;
 	align-items: center;
 }
+
 #searchloginbuttun {
 	width: 100%;
 	background: none;
@@ -134,6 +151,7 @@ body {
 	padding: 5px 40px;
 	border: 1px solid #dbdbdb;
 }
+
 /* ! LOGIN BUTTUN END */
 /* ! OTHER HEADER TEXT START */
 #moretext {
@@ -143,6 +161,7 @@ body {
 	font-weight: bold;
 	color: #fff;
 }
+
 #beacomeasellerbtn {
 	width: 123.1px;
 	height: 100%;
@@ -152,6 +171,7 @@ body {
 	display: flex;
 	align-items: center;
 }
+
 #becomeatext {
 	line-height: 20px;
 	font-size: 14px;
@@ -159,12 +179,14 @@ body {
 	font-weight: bold;
 	color: #fff;
 }
+
 #searchmorebtn {
 	width: 49.5px;
 	height: 100%;
 	display: flex;
 	align-items: center;
 }
+
 /* ! OTHER HEADER TEXT START */
 /* !header complete */
 /* ///////////////////// */
@@ -183,6 +205,7 @@ body {
 	align-items: center;
 	background-color: white;
 }
+
 /* ! categoryes all */
 #allcategory {
 	display: flex;
@@ -191,50 +214,62 @@ body {
 	font-size: 13px;
 	font-weight: bold;
 }
+
 .catimgg img {
 	width: 64px;
 	height: 64px;
 }
+
 #Grocerysec {
 	padding-top: 12px;
 }
+
 #Mobilessec {
 	padding: 12px 8px;
 	margin-right: 7px;
 	margin-left: 12px;
 }
+
 #fasionsec {
 	margin-right: 7px;
 
 	padding: 12px 8px;
 }
+
 #electronicsec {
 	padding: 12px 8px;
 	margin-right: 7px;
 }
+
 #homesec {
 	padding: 12px 8px;
 	margin-right: 7px;
 }
+
 #appliancesec {
 	padding: 12px 8px;
 	margin-right: 7px;
 }
+
 #travel {
 	padding: 12px 8px;
 	margin-right: 7px;
 }
+
 #topoffersec {
 	padding: 12px 8px;
 	margin-right: 7px;
 }
+
 #beutytoyssec {
 	padding: 12px 8px;
 	margin-right: 7px;
 }
+
 #twowheelerssec {
 	padding: 12px 8px;
 }
+
 /* ! category complete */
 /* ///////////////////// */
 /* ///////////////////// */
@@ -245,6 +280,7 @@ body {
 	display: flex;
 	justify-content: center;
 }
+
 #slidercontainer {
 	margin: 8.3px;
 	width: 100%;
@@ -252,16 +288,16 @@ body {
 	background-color: aqua;
 	max-width: 1680px;
 }
+
 #slidercontainer img {
 	height: 279px;
 }
 
 
+/* ////////////// */
 
-
-
-.all-card-section{
-
+/* !all card section start */
+.all-card-section {
 	min-height: 341px;
 	flex-direction: row;
 	color: #212121;
@@ -273,29 +309,75 @@ body {
 	margin: 8.3px;
 	max-width: 1680px;
 }
-.flex-sectionn{
 
+.flex-sectionn {
 	display: flex;
 	justify-content: center;
 }
 
-.left-card-sec{
-background-color: #ffe500;
-min-height: 341px;
-
-width: 23vw;
+/* ? left card start */
+.left-card-sec {
+	background-color: white;
+	min-height: 341px;
+	width: 240px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
 }
 
-.right-card-sec{
+.img-card img {
+	height: 100%;
+}
+
+.top-tital-card {
+	word-wrap: break-word;
+	text-align: center;
+	font-size: 30px;
+}
+
+.down-btn-card {
+	margin-top: 24px;
+	text-align: center;
+}
+
+.Viewall-btn {
+	border-radius: 2px;
+	padding: 10px 17px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	background: #2874f0;
+	color: #fff;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+	border: none;
+}
+
+/* ? left card end */
+/* ? right card start */
+.right-card-sec {
 	background-color: #0dff35;
 	min-height: 341px;
 	width: 75vw;
 
 }
-
-
-
-
-
-
-
+/* ? right card end */
+#text-section {
+	min-height: 1000px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+	margin-top: 23.3px;
+	max-width: 100%;
+	text-align: left;
+	font-size: 14px;
+	line-height: 23px;
+	padding:30px;
+	color: #757575;
+}
+#text-section a {
+	text-decoration: none;
+	color: #757575;
+}
+#text-section a :visited{
+	text-decoration: none;
+	color: #757575;
+}
