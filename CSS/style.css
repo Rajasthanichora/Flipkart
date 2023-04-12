@@ -361,6 +361,7 @@ body {
 	width: 75vw;
 
 }
+
 /* ? right card end */
 #text-section {
 	min-height: 1000px;
@@ -370,14 +371,87 @@ body {
 	text-align: left;
 	font-size: 14px;
 	line-height: 23px;
-	padding:30px;
+	padding: 30px;
 	color: #757575;
 }
+
 #text-section a {
 	text-decoration: none;
 	color: #757575;
 }
-#text-section a :visited{
+
+#text-section a :visited {
 	text-decoration: none;
 	color: #757575;
+}
+
+/* ///////////////////// */
+/* ///////////////////// */
+/* ///////////////////// */
+/* ///////////////////// */
+/* ///////////////////// */
+
+footer {
+	background-color: #172337;
+	font-weight: bold;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.mail-us-sec {
+	border-left: 1px solid #454d5e;
+	padding: 0 25px;
+	height: 134px;
+	width: 246px;
+}
+
+#footer-section {
+	margin-left: 65px;
+	width: 90% !important;
+	padding-top: 40px;
+	height: 322px;
+	width: 100%;
+	color: white;
+	display: flex;
+}
+
+#footer-links a :hover {
+	text-decoration: underline;
+}
+
+#footer-links {
+	display: flex;
+}
+
+.foot-link-tital {
+	color: #878787;
+	font-size: 12px;
+	margin-bottom: 9px;
+}
+
+.link-sec-foot {
+	width: 95px;
+	height: 241px;
+}
+
+.discript-links {
+	font-size: 12px;
+	line-height: 2;
+}
+
+#footer-address {
+	display: flex;
+}
+
+.right-sec-foot {
+	width: 170px;
+	height: 241px;
+	margin-left: 14px;
+}
+
+.right-foot-address {
+	font-size: 12px;
 }
