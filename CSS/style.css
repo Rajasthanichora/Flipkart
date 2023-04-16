@@ -295,15 +295,71 @@ body {
 	background-color: aqua;
 	max-width: 1680px;
 	margin-bottom: 8.3px;
+	overflow: hidden;
 }
 
 #slidercontainer img {
 	height: 279px;
-	width: 100%;
+	max-width: 118vw;
 }
 
 
 /* ////////////// */
+/* ! axis bank advertisment start */
+#axis-bank-ad {
+	width: 100%;
+	border-radius: 2px;
+	margin-bottom: 8.3px;
+}
+
+#axis-bank-ad img {
+	height: 100%;
+	width: 100%;
+}
+
+/* ! axis bank advertisment end */
+/* ////////////// */
+/* ! banner-3 advertisment start */
+.banner-3-advertisment-sec {
+	width: 100%;
+	background-color: #f1f3f6;
+	margin: 8.3px 0px;
+	border-radius: 2px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.banner-3-advertisment-sec img {
+	border-radius: 3px;
+	width: 32.54%;
+}
+
+/* ! banner-3 advertisment end */
+/* ! banner-12 advertisment start */
+#banner-12-advertisment-sec {
+	width: 100%;
+	background-color: #f1f3f6;
+	margin: 8.3px 0px;
+	border-radius: 2px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+#banner-12-advertisment-sec img {
+	width: 32.54%;
+	border-radius: 3px;
+}
+
+/* ! banner-12 advertisment end */
+
+
+
+
+
+
+
 
 /* !all card section start */
 .all-card-section {
