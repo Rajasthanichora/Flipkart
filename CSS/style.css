@@ -287,15 +287,22 @@ body {
 #slider {
 	display: flex;
 	justify-content: center;
+	max-width: 1680px;
+	margin-bottom: 8.3px;
+}
+
+#slider-banner-sec {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
 }
 
 #slidercontainer {
+
+	display: inline-flex;
+	height: 100%;
 	width: 100%;
-	height: 280px;
-	background-color: aqua;
-	max-width: 1680px;
-	margin-bottom: 8.3px;
-	overflow: hidden;
 }
 
 #slidercontainer img {
@@ -747,3 +754,56 @@ footer a {
 #rightbtn-cards-arrow {
 	font-size: 45px;
 }
+
+/* ! top banner slider buttuns start */
+
+
+#left-side-btn-sec-slider {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.leftbtn-cards-slider {
+	padding: 28px 0px;
+	box-shadow: 6px 2px 5px -1px rgba(0, 0, 0, .3);
+	background-color: hsla(0, 0%, 100%, .98);
+	border: none;
+	border-radius: 0px 5px 5px 0px;
+	display: none;
+}
+.leftbtn-cards-slider.show {
+	display: block;
+}
+#right-side-btn-sec-slider {
+	position: absolute;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	top: 0;
+	right: 0;
+}
+.rightbtn-cards-slider {
+	padding: 28px 0px;
+	box-shadow: -6px 2px 5px -1px rgba(0, 0, 0, .3);
+	background-color: hsla(0, 0%, 100%, .98);
+	border: none;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.rightbtn-cards-slider.hide {
+	display: none;
+}
+/* ! top banner slider buttuns end */
+
+
+
+
+
+
+
+
+
