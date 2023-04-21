@@ -631,6 +631,7 @@ footer a {
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
+	position: relative;
 }
 
 .cardss:hover {
@@ -766,6 +767,7 @@ footer a {
 	flex-direction: column;
 	justify-content: center;
 }
+
 .leftbtn-cards-slider {
 	padding: 28px 0px;
 	box-shadow: 6px 2px 5px -1px rgba(0, 0, 0, .3);
@@ -774,9 +776,11 @@ footer a {
 	border-radius: 0px 5px 5px 0px;
 	display: none;
 }
+
 .leftbtn-cards-slider.show {
 	display: block;
 }
+
 #right-side-btn-sec-slider {
 	position: absolute;
 	height: 100%;
@@ -786,6 +790,7 @@ footer a {
 	top: 0;
 	right: 0;
 }
+
 .rightbtn-cards-slider {
 	padding: 28px 0px;
 	box-shadow: -6px 2px 5px -1px rgba(0, 0, 0, .3);
@@ -797,13 +802,169 @@ footer a {
 .rightbtn-cards-slider.hide {
 	display: none;
 }
+
 /* ! top banner slider buttuns end */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ! suggestion section start */
+#suggetionforudec {
+	width: 100%;
+	background-color: white;
+	border-radius: 3px;
+	margin-bottom: 8.3px;
+}
 
+/* ?suggestion header start */
+#suggetionheader {
+	height: 82.6px;
+	width: 100%;
+	padding: 15px 20px 16px 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
 
+#suggetionheadstrip {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
+#suggetion-text-tital {
 
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: bold;
+}
 
+#suggetion-text-discription {
+	font-size: 14px;
+	color: #c2c2c2;
+	font-weight: bold;
+}
 
+/* ?suggestion header end */
 
+.suggetion-heart-btn {
+	color: #c2c2c2;
+	font-size: 16px !important;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
 
+/* !card text section start */
+.suggestion-card-textt {
+	width: 188px;
+}
 
+.suggestion-card-textt:hover {
+	color: #2874f0;
+}
+
+/* * suggestion card tital start */
+.suggetion-card-tital {
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+/* * suggestion card tital end */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* * suggestion rating section start */
+.suggetion-card-rating {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #878787;
+}
+
+/* ? green rating card start  */
+.rating-card-sec-suggest {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 39.5px;
+	height: 19px;
+	border-radius: 3px;
+	background-color: #388e3c;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+}
+
+.rating-card-sec-suggest-star {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 3px;
+}
+
+.suggest-star-rating {
+	font-size: 11px !important;
+}
+
+/* ? green rating card end  */
+/* * suggestion rating section end */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* * suggetion card price start */
+.suggetion-card-price {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+}
+
+.suggestion-price-sec {
+	font-size: 16px;
+	font-weight: bold;
+	color: #212121;
+}
+
+.suggestion-price-delete {
+	text-decoration: line-through;
+	font-size: 14px;
+	color: #878787;
+}
+
+.suggestion-price-off {
+	color: #388e3c;
+	font-size: 13px;
+	letter-spacing: -.2px;
+	font-weight: bold;
+}
+
+/* * suggetion card price end */
+/*! card text section end */
+/* ! suggestion section start */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
+/* ///////////////////////////// */
