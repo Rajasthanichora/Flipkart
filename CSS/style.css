@@ -379,12 +379,12 @@ body {
 	align-items: center;
 	width: 100%;
 	max-width: 1680px;
+	background-color: white;
 }
 
 .flex-sectionn {
 	display: flex;
 	justify-content: center;
-	background-color: white;
 }
 
 /* ? left card start */
@@ -968,3 +968,23 @@ footer a {
 /* ///////////////////////////// */
 /* ///////////////////////////// */
 /* ///////////////////////////// */
+
+ #rightcardsec-2side-card{
+
+	width: 51vw;
+	max-width: 73%;
+
+} 
+
+#leftsec-2side-card{
+	background-color: white;
+	min-height: 341px;
+	width: 230px;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 8.3px;
+}
+#leftsec-2side-card img{
+padding: 5px;
+}
